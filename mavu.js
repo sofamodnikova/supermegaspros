@@ -14,7 +14,7 @@ askButton.addEventListener('click', function() {
             console.log(data);
             const answer = data.answer;
             answerGif.src = data.image;
-            answerGif.style.display=- 'block';
+            answerGif.style.display = 'block';
             questionInput.style.display = 'none';
             askButton.style.display = 'none';
     })
